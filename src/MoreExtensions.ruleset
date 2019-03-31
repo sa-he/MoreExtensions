@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="NTestHelper" ToolsVersion="16.0">
+  <Include Path="minimumrecommendedrules.ruleset" Action="Default" />
+  <Rules AnalyzerId="Microsoft.CodeAnalysis.CSharp" RuleNamespace="Microsoft.CodeAnalysis.CSharp">
+    <Rule Id="CS1591" Action="Hidden" />
+  </Rules>
+  <Rules AnalyzerId="Microsoft.CodeAnalysis.CSharp.Features" RuleNamespace="Microsoft.CodeAnalysis.CSharp.Features">
+    <Rule Id="IDE0001" Action="Info" />
+    <Rule Id="IDE0002" Action="None" />
+    <Rule Id="IDE0003" Action="Info" />
+    <Rule Id="IDE0003WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0004" Action="Info" />
+    <Rule Id="IDE0004WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0005" Action="Info" />
+    <Rule Id="IDE0007" Action="Info" />
+    <Rule Id="IDE0007WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0008" Action="Info" />
+    <Rule Id="IDE0008WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0009" Action="Info" />
+    <Rule Id="IDE0009WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0011" Action="None" />
+    <Rule Id="IDE0011WithoutSuggestion" Action="None" />
+    <Rule Id="IDE0016" Action="Info" />
+    <Rule Id="IDE0016WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0017" Action="Info" />
+    <Rule Id="IDE0017WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0018" Action="Info" />
+    <Rule Id="IDE0018WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0019" Action="Info" />
+    <Rule Id="IDE0019WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0020" Action="Info" />
+    <Rule Id="IDE0020WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0021" Action="None" />
+    <Rule Id="IDE0022" Action="None" />
+    <Rule Id="IDE0023" Action="Info" />
+    <Rule Id="IDE0024" Action="Info" />
+    <Rule Id="IDE0025" Action="Info" />
+    <Rule Id="IDE0026" Action="Info" />
+    <Rule Id="IDE0027" Action="None" />
+    <Rule Id="IDE0028" Action="Info" />
+    <Rule Id="IDE0028WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0029" Action="Info" />
+    <Rule Id="IDE0029WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0030" Action="Info" />
+    <Rule Id="IDE0030WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0031" Action="Info" />
+    <Rule Id="IDE0031WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0032" Action="Info" />
+    <Rule Id="IDE0032WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0034" Action="Info" />
+    <Rule Id="IDE0034WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0036" Action="Info" />
+    <Rule Id="IDE0036WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0037" Action="Info" />
+    <Rule Id="IDE0037WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0039" Action="Info" />
+    <Rule Id="IDE0039WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0040" Action="Info" />
+    <Rule Id="IDE0040WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0041" Action="Info" />
+    <Rule Id="IDE0041WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0042" Action="Info" />
+    <Rule Id="IDE0042WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0044" Action="None" />
+    <Rule Id="IDE0044WithoutSuggestion" Action="None" />
+    <Rule Id="IDE0045" Action="Info" />
+    <Rule Id="IDE0045WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0046" Action="Info" />
+    <Rule Id="IDE0046WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0047" Action="Info" />
+    <Rule Id="IDE0047WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE0048" Action="None" />
+    <Rule Id="IDE0048WithoutSuggestion" Action="None" />
+    <Rule Id="IDE0049" Action="Info" />
+    <Rule Id="IDE0049WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE1005" Action="Info" />
+    <Rule Id="IDE1005WithoutSuggestion" Action="Info" />
+    <Rule Id="IDE1006" Action="Info" />
+    <Rule Id="IDE1006WithoutSuggestion" Action="Info" />
+  </Rules>
+  <Rules AnalyzerId="Microsoft.CodeAnalysis.Features" RuleNamespace="Microsoft.CodeAnalysis.Features">
+    <Rule Id="IDE0010" Action="None" />
+    <Rule Id="IDE0010WithoutSuggestion" Action="None" />
+    <Rule Id="IDE0033" Action="Info" />
+    <Rule Id="IDE0033WithoutSuggestion" Action="Info" />
+  </Rules>
+  <Rules AnalyzerId="Microsoft.CodeQuality.Analyzers" RuleNamespace="Microsoft.CodeQuality.Analyzers">
+    <Rule Id="CA2007" Action="Hidden" />
+  </Rules>
+  <Rules AnalyzerId="Roslynator.CSharp.Analyzers" RuleNamespace="Roslynator.CSharp.Analyzers">
+    <Rule Id="RCS1001" Action="None" />
+    <Rule Id="RCS1005" Action="Info" />
+    <Rule Id="RCS1005FadeOut" Action="Info" />
+    <Rule Id="RCS1006" Action="Info" />
+    <Rule Id="RCS1006FadeOut" Action="Info" />
+    <Rule Id="RCS1010" Action="Warning" />
+    <Rule Id="RCS1013" Action="Warning" />
+    <Rule Id="RCS1015FadeOut" Action="Info" />
+    <Rule Id="RCS1017" Action="Warning" />
+    <Rule Id="RCS1018" Action="Warning" />
+    <Rule Id="RCS1079" Action="None" />
+    <Rule Id="RCS1118" Action="Warning" />
+    <Rule Id="RCS1123" Action="Warning" />
+    <Rule Id="RCS1169" Action="Warning" />
+    <Rule Id="RCS1170" Action="Warning" />
+  </Rules>
+  <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers">
+    <Rule Id="SA1008" Action="Error" />
+    <Rule Id="SA1101" Action="None" />
+    <Rule Id="SA1118" Action="Hidden" />
+    <Rule Id="SA1124" Action="Hidden" />
+    <Rule Id="SA1200" Action="None" />
+    <Rule Id="SA1309" Action="None" />
+    <Rule Id="SA1408" Action="None" />
+    <Rule Id="SA1503" Action="None" />
+    <Rule Id="SA1600" Action="None" />
+    <Rule Id="SA1601" Action="Hidden" />
+    <Rule Id="SA1602" Action="Hidden" />
+    <Rule Id="SA1611" Action="Hidden" />
+    <Rule Id="SA1615" Action="Hidden" />
+    <Rule Id="SA1618" Action="Hidden" />
+    <Rule Id="SA1633" Action="None" />
+    <Rule Id="SA1649" Action="None" />
+    <Rule Id="SX1101" Action="Warning" />
+    <Rule Id="SX1309" Action="Warning" />
+  </Rules>
+</RuleSet>

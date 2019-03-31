@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+
+      <CodeAnalysisRuleSet>..\MoreExtensions.ruleset</CodeAnalysisRuleSet>
+      <Authors>sa.he</Authors>
+      <Company>sa.he</Company>
+      <Version>0.1.0</Version>
+
+      <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+      <PackageId>MoreExtensions</PackageId>
+      <PackageLicenseExpression>MIT</PackageLicenseExpression>
+      <RepositoryUrl>https://github.com/sa-he/MoreExtensions</RepositoryUrl>
+      <IncludeSymbols>true</IncludeSymbols>
+      <PackageProjectUrl>https://github.com/sa-he/MoreExtensions</PackageProjectUrl>
+      <PackageTags>Extensions </PackageTags>
+      <NeutralLanguage>en</NeutralLanguage>
+      <Description>Sick of copy and pasting your favorite C# extension around your projects? Every time I write a new Extension method I'm sure, that someone else must already have written the exact same code. So, let us join forces :)</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.9.3" />
+    <PackageReference Include="Roslynator.Analyzers" Version="2.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
